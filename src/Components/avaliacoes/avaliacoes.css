@@ -1,0 +1,43 @@
+.Container_Rating{
+    display: flex;
+    flex-direction:row ;
+    position: relative;
+    top: 17rem;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;   
+}
+.book_rating > img{
+    width: 30%;
+}
+
+.stars-rating{
+    font-size: 12px;
+    color: rgb(233, 149, 24);
+}
+.tituloAvaliacoes{
+   font-size: 2em;
+   position: absolute;
+   bottom: 0;
+   left: 20rem;
+}
+.title_rating{
+   font-size:20px;
+   font-weight: 700;
+   text-align: left;
+   margin-bottom: 15px;
+}
+.text_rating{
+    text-align: left;
+    padding-right: 18px;
+}
+.Elemento_Rating{
+    background: rgba(255, 42, 42, 0.24);
+    height: 90px !important;
+    width:40%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 50px;
+    padding: 20px 0 20px 0;  
+}

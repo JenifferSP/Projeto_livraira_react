@@ -1,0 +1,39 @@
+#livro_1{
+    width: 5rem;
+    cursor: pointer;
+}
+#livro_1:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+.tituloEstante{
+    position: absolute;
+    left: 20rem;
+}
+.tituloEstante{
+    float: left !important;
+    font-size: 2em;
+    margin-top: 30px;
+}
+.elemento{
+    width: 50%;
+    position: absolute;
+    left:16rem;
+    margin-top: 6rem;
+    float: right;
+    display:flex;
+   flex-direction:row;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.livros{
+    display:inline-block;
+    margin:0 30px 15px 0;
+}
+.stars{
+  color: #b6b6b6;
+  cursor: pointer;
+  gap: 5px;
+  display: flex;
+}
